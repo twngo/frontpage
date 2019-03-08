@@ -74,9 +74,6 @@
                         <a class="page-scroll" href="#project">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#news">News</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -90,17 +87,15 @@
 
     <section class="intro"> 
     	  <div class ="intro-body">
-                  <h1 class="brand-heading">NGO 推進器</h1>
                   <p class="intro-text">言論資訊自由 知識技術開源 隱私自主安全 擔當信任透明</p>
-                  <p class="intro-text"></p>
-
-                          <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-          </div>              
+                  <div class="col-lg-8 col-lg-offset-2">
+                    <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="103519/"></script> <!-- end feedwind code --> 
+                  </div>    
+        </div> 
     </section>
+    
 
-    <!-- About Section -->
+         <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -122,11 +117,11 @@
                     <p>半熟、夭折、難產、匍匐爬行中的各式計畫</p>
                     <a href="https://privacytools.twngo.xyz/" class="btn btn-default btn-lg">網路隱私工具指南</a>
                     <a href="https://github.com/twngo/l10n" class="btn btn-default btn-lg">網路自由在地化</a> 
-                    <a href="https://courses.twngo.xyz/" class="btn btn-default btn-lg">數位知能培力課程</a>
+                    <a href="https://mydata.netowrk" class="btn btn-default btn-lg">MyData Taiwan</a>
                     <a href="https://books.twngo.xyz/" class="btn btn-default btn-lg">線上圖書館</a>
                     <a href="https://infosec.twngo.xyz/" class="btn btn-default btn-lg">實用資安指南</a> 
                     <a href="https://twngo.xyz/card.html" class="btn btn-default btn-lg">NGO數位策略指引</a> 
-                    <a href="https://mydata.netowrk" class="btn btn-default btn-lg">MyData Taiwan</a>   
+                    <a href="https://twngo.club" class="btn btn-default btn-lg">交流俱樂部</a>   
                 </div>
             </div>
                             <a href="#news" class="btn btn-circle page-scroll">
@@ -135,36 +130,6 @@
         </div>
     </section>
    
-    <!-- news Section -->
-    <section id="news" class="container content-section text-center">
-        <h2>近期文章</h2>
-              <div id="wrapper">
-                    <div id="feed"></div>
-                </div>
-                <script>
-                    var feed1 = 'https://medium.twngo.xyz/feed';
-                    $('#feed').rssfeed(feed1, {
-                        ssl: true,
-                        limit: 6,
-                        showerror: true,
-                        errormsg: '',
-                        tags: true,
-                        date: true,
-                        dateformat: 'spellmonth',
-                        titletag: 'h4',
-                        content: true,
-                        image: true,
-                        snippet: true,
-                        snippetlimit: 120,
-                        linktarget: '_blank'
-                }, function () {
-                    // optional callback function
-                });
-                </script>
-                  <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-up animated"></i>
-                        </a> 
-     </section>
      <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">        
         <div class="row">
@@ -188,7 +153,7 @@
                         <a href="https://publicslack.com/slacks/twngo/invites/new" class="btn btn-default btn-lg"><i class="fa fa-slack fa-fw"></i> <span class="network-name">Slack</span></a>
                     </li>
                      <li>
-                     <a href="https://www.getrevue.co/profile/twngo" class="btn btn-default btn-lg"><i class="fa fa-paper-plane fa-fw"></i> <span class="network-name">Revue</span></a>
+                     <a href="https://to.twngo.xyz/signup" class="btn btn-default btn-lg"><i class="fa fa-paper-plane fa-fw"></i> <span class="network-name">Mailchimp</span></a>
                     </li>  
 
                 </ul>
@@ -227,20 +192,6 @@
    <script  src="js/index_rock.js"></script>
    
 
-    <!-- Piwik -->
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        _paq.push(['setTrackerUrl',  'https://api-00c26479792892c33cfd42add2c2e0f4.oasis.sandstorm.io']);
-        _paq.push(['setSiteId', 1]);
-        _paq.push(['setApiToken', 'Mf3PmFdnDZXSg39MyDnVIpab9M14z0K7Z_eJVRAvMW4']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://pfv4lw9mgqu1y5zuvmny.oasis.sandstorm.io/embed.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <!-- End Piwik Code -->
 
 </body>
 
